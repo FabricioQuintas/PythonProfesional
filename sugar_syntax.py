@@ -1,7 +1,7 @@
 # This is a decorator
 def uppercases(func):
     # Have an indented function
-    def envelope(text):
+    def wrapper(text):
         # Make text in upper
         return func(text).upper()
     # With a clousure
